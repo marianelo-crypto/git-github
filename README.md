@@ -13,7 +13,7 @@ Se deberá entregar a través del formulario de prácticas indicando la URL del 
 
 2. ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
-   Use el comando **git reflog** para ubicar el commit que queria rehacer y **git reset --hard <id commit>** para rehacer el commit y todos los cambios.
+   Use el comando **git reflog** para ubicar el commit que queria rehacer y **git reset --hard id commit** para rehacer el commit y todos los cambios.
 
 3. El merge del paso 13, ¿Causó algún conﬂicto? ¿Por qué?
 
@@ -49,14 +49,14 @@ Se deberá entregar a través del formulario de prácticas indicando la URL del 
 
 11. ¿Qué comando o comandos utilizaste en el paso 30?
 
-    Use el comando **git checkout <id commit>**, **git branch title** y **git checkout main** y repetí el paso 26 donde usé el comando **git merge --no -ff title**.
+    Use el comando **git checkout id commit**, **git branch title** y **git checkout main** y repetí el paso 26 donde usé el comando **git merge --no -ff title**.
 
 13. ¿Qué comando o comandos usaste en el paso 32?
 
-    Use **git reflog** y **git checkout<id commit INICIAL>**.
+    Use **git log** y **git checkout id commit INICIAL**.
 
 15. ¿Qué comando o comandos usaste en el punto 33?
 
-    Use **git reflog** y **git checkout<id commit FINAL>**.
+    Use **git log** y **git checkout id commit FINAL**.
 
     
